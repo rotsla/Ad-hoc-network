@@ -1,3 +1,4 @@
+
 #include <iostream>
 
 class Channel : public cSimpleModule
