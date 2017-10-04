@@ -9,10 +9,3 @@ protected:
 protected:
     int numGates;
 };
-
-Define_Module(Channel);
-
-void Channel::initialize()
-{
-    numGates = gateCount() / 2;
-}
